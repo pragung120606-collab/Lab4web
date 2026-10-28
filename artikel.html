@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Sederhana - Artikel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Layout Sederhana</h1>
+        </header>
+        <nav>
+            <a href="home.html" class="">Home</a>
+            <a href="artikel.html" class="active">Artikel</a>
+            <a href="about.html" class="">About</a>
+            <a href="kontak.html" class="">Kontak</a>
+        </nav>
+        
+        <section id="hero">
+            <h1>Hello World!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum lorem elit, iaculis innisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+            <a href="home.html" class="btn btn-large">Learn more &raquo;</a>
+        </section>
+
+        <section id="wrapper">
+            <section id="main">
+                <article class="entry">
+                    <h2>Artikel Utama: CSS Layout & Semantics Element</h2>
+                    <p>Penggunaan layout CSS modern memudahkan developer dalam membangun struktur web yang rapi, adaptif, serta mudah dipahami oleh mesin pencari (SEO friendly). Menggunakan elemen HTML5 semantik seperti <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, dan <code>&lt;aside&gt;</code> memperjelas struktur dokumen.</p>
+                </article>
+                <hr class="divider" />
+                <article class="entry">
+                    <h2>Penerapan Float & Clearfix</h2>
+                    <img src="images/featurette-1.png" alt="Artikel Float">
+                    <p>Properti float memungkinkan elemen HTML seperti gambar atau kolom mengapung ke sisi kiri atau kanan elemen pembungkusnya. Untuk mencegah kehancuran tata letak (layout collapse), teknik clearfix digunakan agar elemen setelahnya tetap berada di posisi yang benar.</p>
+                </article>
+            </section>
+
+            <aside id="sidebar">
+                <div class="widget-box">
+                    <h3 class="title">Widget Header</h3>
+                    <ul>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                        <li><a href="#">Widget Link</a></li>
+                    </ul>
+                </div>
+                <div class="widget-box">
+                    <h3 class="title">Widget Text</h3>
+                    <p>Vestibulum lorem elit, iaculis in nisl volutpat, malesuada tincidunt arcu. Proin in leo fringilla, vestibulum mi porta, faucibus felis. Integer pharetra est nunc, nec pretium nunc pretium ac.</p>
+                </div>
+            </aside>
+        </section>
+
+        <footer>
+            <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
